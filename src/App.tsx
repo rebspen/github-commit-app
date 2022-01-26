@@ -1,10 +1,9 @@
 import React, { Dispatch } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { AppState } from './redux/reducers/rootReducer';
-import { actions1 } from './redux/actions/actions1';
-import { actions2 } from './redux/actions/actions2';
+import { commitActions } from './redux/actions/commitActions';
 
 function App() {
-  return <div></div>;
+  return <div>hello</div>;
 }
 export default App;
